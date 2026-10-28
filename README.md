@@ -18,19 +18,19 @@ python search.py
 
 ## Приклад використання
 
-from search import search_by_category
-results = search_by_category("електроніка")
-print(results)
+from search import search_by_category  
+results = search_by_category("електроніка")  
+print(results)  
 
 ## Структура проєкту
 
 practical-05_/
-├── search.py        # Логіка фільтрації та пошуку товарів
-├── header.html      # HTML-розмітка заголовка сторінки
-├── style.css        # Таблиця стилів для оформлення
-├── docs/            # Документація проєкту
-│   └── adr/         # Журнал архітектурних рішень (ADR)
-└── README.md        # Головний файл документації
+├── search.py        # Логіка фільтрації та пошуку товарів  
+├── header.html      # HTML-розмітка заголовка сторінки  
+├── style.css        # Таблиця стилів для оформлення  
+├── docs/            # Документація проєкту  
+│   └── adr/         # Журнал архітектурних рішень (ADR)  
+└── README.md        # Головний файл документації  
 
 ## Ліцензія та автори
 Автор: Yaroslav-Oziichuk
