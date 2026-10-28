@@ -1,5 +1,4 @@
-# Practical 05 & 06: E-Commerce Product Search & Layout
-
+# Practical 06
 Це вебпроєкт, розроблений для демонстрації базових елементів сайту та реалізації логіки пошуку товарів за категоріями.
 
 ## Можливості
@@ -11,9 +10,8 @@
 Мінімальні кроки для запуску проєкту локально:
 
 1. Клонувати репозиторій:
-```bash
-git clone [https://github.com/Yaroslav-Oziichuk/practical-05_.git](https://github.com/Yaroslav-Oziichuk/practical-05_.git)
-cd practical-05_
+git clone (посилання на репозиторі)
+cd practical-05_ 
 
 Запустити модуль пошуку через Python:
 python search.py
@@ -21,8 +19,6 @@ python search.py
 ## Приклад використання
 
 from search import search_by_category
-
-# Отримання списку товарів у категорії "електроніка"
 results = search_by_category("електроніка")
 print(results)
 
